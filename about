@@ -1,0 +1,28 @@
+Friendly
+
+'Friendly' is an instagram bot which helps you boost your network by increasing the follower count. 
+Functions:
+1. Increase follower
+2. Send bulk messages
+3. Generates report-shares via gspread
+
+Friendly can be of great use to buiseness accounts of instagram.They have a huge following as well as follower list.
+Friendly can be used to message all thier customers(followers) regarding thier schemes/upcoming events. Hence can be a great tool of digital marketing as well . The generated report can be useful in analyzing the follower and following accounts( Intrested and Unintrested users).
+
+
+
+Main challenges:
+-> creating a python based selenium environment to develope automated::
+       1. login
+       2. follow/unfollow
+       3. create list of followers/following/not following back
+       4. send a message to every follower/following list
+--> create a csv file(generated report file) using pandas or csv module
+--> creating and sharing generated report file
+       1. creating a service account on google and get the API of specific google tools
+       2.  create a google develpers project and downloading the credential.json (API KEY , CLIENT-ID  file)
+       3. creating an api key to create google sheet and drive to share the created report
+       4. Load the created csv file to a newly created sheet
+       5. Share the sheet as a reader to the user to thier email id
+--> Creating an attractive frontend
+--> Creating a flask environment 
