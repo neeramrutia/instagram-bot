@@ -1,12 +1,10 @@
 from flask import Flask, request, render_template
 from insta import InstaFollower
 from sheet import createsheet
-#  instadb-378210
-# api key=AIzaSyDtJFMsvia4nWDscsEFN2nS9TJQn32b6Bg
 app = Flask(__name__,template_folder='/home/neer/Desktop/testing/templates/',static_folder='/home/neer/Desktop/testing/static/')
 chrome_driver_path = '/usr/bin/chromedriver'
 # username=''
-# password='testingaccount'
+
 # email=''
 @app.route('/')
 def index():
